@@ -11,5 +11,10 @@ logistic distribution , mutinomail,exponential,chi squre etc.To plot the graph o
 
 Task 5 : In task 5 we Pandas library Starting with a basic introduction and ends up with creating and plotting random data set and working with Pandas functions.We Create a simple Pandas DataFrame, we the load the CSV into a DataFrame.we create a dataframe using the metrix,using the dictionary.we using the dataframe operation like value counts,apply, unique nunique,describe.pandas provides various function to manipulate data including selection, filtering ,grouping, and merging.In pandas we learn how to find the missing values in the data. also we learn how to drop the column or row in the dataset. we also learn the how to fill the missing values in the data using the mean and median.
 
-Task 6 : In task 6 we Matplotlib is a comprehensive library for creating static,animated,and the  interactive visualizations in the python. It is highly customizable and capable of producing publication-quality figures.Matplotlib allows you to create a wide range of plots including line plots,scatter plot,bar charts,histograms ,boxplot.In these we create all types graphs .we learn the how to show label in the graphs and also we learn the give the legend in the graph.Seaborn is a python data visualization libary based on the Matplotlib.It provides the informative statistical graphics.
+Task 6 : In task 6 we Matplotlib is a comprehensive library for creating static,animated,and the  interactive visualizations in the python. It is highly customizable and capable of producing publication-quality figures.Matplotlib allows you to create a wide range of plots including line plots,scatter plot,bar charts,histograms ,boxplot.In these we create all types graphs .we learn the how to show label in the graphs and also we learn the give the legend in the graph.Seaborn is a python data visualization libary based on the Matplotlib.
  
+ Task 7 : In these we task solve the problem the Numpy,Ecommerce Purchases and the salaries Exercises . 
+
+
+
+
