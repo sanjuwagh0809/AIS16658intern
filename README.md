@@ -54,7 +54,7 @@ In model evaluation we find accuracy,classification report,confusion matrix,prec
 decision tree is the best model on the basis of prcision , accuracy and recall, Where the values of precision,accuracy and recall for dicision tree are high as compared to knn and naive bayes.
 
 Task 9 : Dashboard
-In this task we created a dashoard on project data i.e Airlines Delay Classification in power bi dashboard.We download the Airlines Delay Classification from kaggle. In power bi we get the data from csv file then by using graphs ,sclicers,card and other features we create a dashoard in power bi.
+In this task we created a dashoard on project data i.e Airlines Delay Classification in power bi dashboard.We download the Airlines Delay Classification from kaggle. In power bi we get the data from csv file then by using graphs ,card and other features we create a dashoard in power bi.
 
 
 
