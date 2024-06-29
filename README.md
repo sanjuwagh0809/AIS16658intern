@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
  plot x and y
 plot() function is uesd to draw points (markers) in a diagram.
 In matplotlib wa studied matplotlib plotting with markers,lines,label,grid,subplot,sctter plot,bar,box plot,Violine plot,Heatmap,pairplot,residual plot.
-# Seaborn library 
+ Seaborn library 
 It provides a hight -level interface for drawing attractive and informative statistical graphics. 
  Seaborn is built on top of Matplotlib and closely integrated with Pandas data structures, making it particularly convenient for working with DataFrame objects.
 Once installed ,you can import it in your Python script or Jupyter Notebook:
