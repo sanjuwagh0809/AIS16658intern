@@ -9,12 +9,52 @@ negative,even odd etc.2] task 2 - if else stmt : used to check two condition in 
 Task 4 : In task 4 we studied all about Numpy library Starting with a basic introduction and ends up with creating and plotting random data set and working with NumPy functions #NumPy is open sourse project that enables numerical computing with python numPy will always be 100 % open source software and free for all use . We studied 1) creating arrays 2) array indexing  3) slicing 4) NumPy datatypes 5) Copy and View 6) array shape or reshape 7) array iterting 8) join splits, sort and filter . Here 1D array,3D array and multidimensional array are studied Numpy has some extra data types, and refer to data types with one cheracter like i for integers,u for unsigned integers etc # Then we learn how to generate Random Number NumPy offers the random module to work with random numbers #Data disribution is a list of all possible values,and how often each value occurs Such lists are important when working with Statistical and data science .The random module offer methods that return randomly generated data distributions. Then we see that generation of random numbers from particular distribuction and visuallisation  of that distribution like Normal distribution ,binomial distribution ,poission distribution ,unifrom distribution ,
 logistic distribution , mutinomail,exponential,chi squre etc.To plot the graph of distributons #from NumPy import random #import matplotlib pyplotas plt #import seaborn as sns.Then we use ufuncs stands for "Univeral Functions" and they are NumPy functions that operate on the ndarray object .We studied ufunctiuons like simple arithmatic,                                                      roundindecimals,log,summations,products,differences,finding,lcm,gcd,trignometric functions,hyperbolic function and set operations.
 
-Task 5 : In task 5 we Pandas library Starting with a basic introduction and ends up with creating and plotting random data set and working with Pandas functions.We Create a simple Pandas DataFrame, we the load the CSV into a DataFrame.we create a dataframe using the metrix,using the dictionary.we using the dataframe operation like value counts,apply, unique nunique,describe.pandas provides various function to manipulate data including selection, filtering ,grouping, and merging.In pandas we learn how to find the missing values in the data. also we learn how to drop the column or row in the dataset. we also learn the how to fill the missing values in the data using the mean and median.
+Task 5 : In task 5 we studied pandas in python .
+#Series : A pandas Series is like a cloumn in a table . It is a one dimensional array holding data of any type.We also studied how to read csv and xlsx file in python.we create DataFrame using matrix and dictionary. we also studied DataFrame operations like value counts, apply unique,nunique ,describe,head,tail,and info .
+We also studied DataFrame operations like value counts,apply unique ,nunique ,describe , head, tail and info.
+We studied how to select perticular row, column in python, We also studied conditional selection,adding,deleting and updating a perticular column,indexing and remove indexing .How to use operations like addition ,substraction,multiplcation ,division between two columns.
+we studied checking of missing values in data, studied missing values drop by columns also studied filling of missing values by using mean and median.
 
-Task 6 : In task 6 we Matplotlib is a comprehensive library for creating static,animated,and the  interactive visualizations in the python. It is highly customizable and capable of producing publication-quality figures.Matplotlib allows you to create a wide range of plots including line plots,scatter plot,bar charts,histograms ,boxplot.In these we create all types graphs .we learn the how to show label in the graphs and also we learn the give the legend in the graph.Seaborn is a python data visualization libary based on the Matplotlib.
- 
- Task 7 : In these we task solve the problem the Numpy,Ecommerce Purchases and the salaries Exercises . 
+Task 6 : In task 6 we studied that Matplotlib and seaborn libarary.
+We Matplotlib is a graph plotting libarary in python that serves as visualization utility.
+# pyplot 
+pyplot
+Most of the Matplotlib utilities lies undr the pyplot submodule,and are usually imported under the plt alias:
+import matplotlib.pyplot as plt 
+# plot x and y
+plot() function is uesd to draw points (markers) in a diagram.
+In matplotlib wa studied matplotlib plotting with markers,lines,label,grid,subplot,sctter plot,bar,box plot,Violine plot,Heatmap,pairplot,residual plot.
+# Seaborn library 
+#It provides a hight -level interface for drawing attractive and informative statistical graphics. 
+# Seaborn is built on top of Matplotlib and closely integrated with Pandas data structures, making it particularly convenient for working with DataFrame objects.
+#Once installed ,you can import it in your Python script or Jupyter Notebook:
+import seaborn as sns
+In seaborn libarary we see differnt types of plotting of graphs such as Scatter plot ,Line plot,bar box,Violin plot Heatmap.pairplot,residual plot.
 
+Task 7 : 1] Numpy exercise:- solved problems related to array indexing slicing,creating arrays containg zeros ones generating random numbers from normal distribution,
+using linspace addition of elements in an array calculate mean standard deviation, etc
+2]Ecommerce purchase exercise:- studied the how to read the file and found out the mean purchase price maximum and minimum purchase price,number of people having job title lawyer number of people making the purchase during the AM and how many people made the purchase during PM,5 most common Job Titles,person with the following Credit Card Number: 4926535242672853 ,number of people have American Express as their Credit Card Provider and made a purchase above $95,number of people have a credit card that expires in 2025,top 5 most popular email providers/hosts (e.g. gmail.com, yahoo.com, etc...)
+3] Salary exercise:-studied the data read the file and found out average BasePay,the highest amount of OvertimePay in the dataset,job title of JOSEPH DRISCOLL, How much does JOSEPH DRISCOLL make,name of highest paid person,name of lowest paid person,the average (mean) BasePay of all employees per year,number of unique job titles,the top 5 most common jobs,number of  Job Titles were represented by only one person in 2013, people have the word Chief in their job title,there a correlation between length of the Job Title string and Salary.
+
+Task 8 :Case study 
+In this case study we download the titanic data from kaggle and import it to jupyter notebook.Then we find the missing values and filled the missing values by its mean ,and droped the variable like cabin,passenger id etc. Then we do label encoding for the categorical variable.
+Then Performd the EDA i.e exploratory data analysis on titanic data such as bar plot,scatter plot,joint plot and pie chart .
+From the graph it is seen that the females are survived more than males.The passengers who are in class 1st are most survived as compared to class 2nd and 3rd.
+In titanic data survival is the dependent variable and other variables like age,sex,fare,sibps,embarked are independent variables.
+Then we split data into train test and fit the algorithms like naive bayes,KNN, dicision tree and predict the text data using particular fitted model.
+In model evaluation we find accuracy,classification report,confusion matrix,precision and recall for each algorithm .and compare it with each other and we may conclude that 
+decision tree is the best model on the basis of prcision , accuracy and recall, Where the values of precision,accuracy and recall for dicision tree are high as compared to knn and naive bayes.
+Case study 
+In this case study we download the titanic data from kaggle and import it to jupyter notebook.Then we find the missing values and filled the missing values by its mean ,and droped the variable like cabin,passenger id etc. Then we do label encoding for the categorical variable.
+Then Performd the EDA i.e exploratory data analysis on titanic data such as bar plot,scatter plot,joint plot and pie chart .
+From the graph it is seen that the females are survived more than males.The passengers who are in class 1st are most survived as compared to class 2nd and 3rd.
+In titanic data survival is the dependent variable and other variables like age,sex,fare,sibps,embarked are independent variables.
+Then we split data into train test and fit the algorithms like naive bayes,KNN, dicision tree and predict the text data using particular fitted model.
+In model evaluation we find accuracy,classification report,confusion matrix,precision and recall for each algorithm .and compare it with each other and we may conclude that 
+decision tree is the best model on the basis of prcision , accuracy and recall, Where the values of precision,accuracy and recall for dicision tree are high as compared to knn and naive bayes.
+
+Task 9 : Dashboard
+In this task we created a dashoard on project data i.e Airlines Delay Classification in power bi dashboard.We download the Airlines Delay Classification from kaggle. In power bi we get the data from csv file then by using graphs ,sclicers,card and other features we create a dashoard in power bi.
 
 
 
